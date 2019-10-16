@@ -1,8 +1,20 @@
 {
-  "email": "test@vdz.nl",
-  "description": "Glas gebroken door voetballende jeugd",
+  "transactions":[
+  {"id": 1, 
+  "damageId": "SZ6647",
+  "email": "l.borgerink@vdz.nl",
   "status": "In behandeling",
   "parties": [
+    {
+      "role": "Verzekerde",
+      "name": "L. Borgerink",
+      "note": "Verzekering nummer 34455353"
+    },
+    {
+      "role": "Verzekeraar",
+      "name": "VKG",
+      "note": "Schadenummer VKG V5547"
+    },
     {
       "role": "Hersteller",
       "name": "Cellie Glas Almelo",
@@ -11,9 +23,21 @@
   ],
   "events": [
     {
-      "timestamp": "2019-10-09Z09:10:00",
+      "timestamp": "2019-10-09T09:10:00Z",
       "type": "delta",
       "description": "Schadeformulier, per email verzonden"
+    },
+    {
+      "timestamp": "2019-10-11T09:10:00Z",
+      "type": "delta",
+      "description": "Schadeformulier retour, per email ontvangen"
+    },
+    {
+      "timestamp": "2019-10-10T09:07:00Z",
+      "type": "note",
+      "description": "Dossier wordt verder door Unigarant verwerkt"
     }
-	]
+  ]
+  }
+]
 }
