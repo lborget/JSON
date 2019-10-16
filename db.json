@@ -3,6 +3,8 @@
   {"id": 1, 
   "damageId": "SZ6647",
   "email": "l.borgerink@vdz.nl",
+  "dateOfDamage": "2019-10-09T10:10:30Z",
+  "description": "Glas gebroken door voetballende jeugd",
   "status": "In behandeling",
   "parties": [
     {
