@@ -41,5 +41,46 @@
     }
   ]
   }
+ {"id": 2, 
+  "damageId": "SZ6648",
+  "email": "r.verdonk@vdz.nl",
+  "dateOfDamage": "2019-10-09T10:10:30Z",
+  "description": "Glas gebroken door voetballende jeugd",
+  "status": "In behandeling",
+  "parties": [
+    {
+      "role": "Verzekerde",
+      "name": "L. Borgerink",
+      "note": "Verzekering nummer 34455353"
+    },
+    {
+      "role": "Verzekeraar",
+      "name": "VKG",
+      "note": "Schadenummer VKG V5547"
+    },
+    {
+      "role": "Hersteller",
+      "name": "Cellie Glas Almelo",
+      "note": "Wilco komt de ruit plaatsen"
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2019-10-09T09:10:00Z",
+      "type": "delta",
+      "description": "Schadeformulier, per email verzonden"
+    },
+    {
+      "timestamp": "2019-10-11T09:10:00Z",
+      "type": "delta",
+      "description": "Schadeformulier retour, per email ontvangen"
+    },
+    {
+      "timestamp": "2019-10-10T09:07:00Z",
+      "type": "note",
+      "description": "Dossier wordt verder door Unigarant verwerkt"
+    }
+  ]
+  }
 ]
 }
