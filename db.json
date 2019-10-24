@@ -40,7 +40,9 @@
       "description": "Dossier wordt verder door Unigarant verwerkt"
     }
   ]
-  },
+  }
+  ],
+ "transactions":[
  {"id": 2, 
   "damageId": "SZ6648",
   "email": "r.verdonk@vdz.nl",
